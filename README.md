@@ -7,6 +7,7 @@ AirScope is a chatbot that provides Air Travel Information based on Natural Lang
 # 1. Collecting Data
 We collected data from the kaggle site (https://www.kaggle.com/siddhadev/atis-dataset-clean) and did some manual work to change the intent into intents we use.
 # 2. Intent Classifier
+## The size of fasttext is too big, run generate_model.ipynb file inside fasttext folder under IntentClassifier for fasttext files.
 ## 1) Flight/NoFlight
 This is the first model of the two intent classifiers we built. When the user types in a sentence, this model returns either flight or noflight. Both the MNB model and LSTM model uses the same data for training which is train_flight_noflight.csv file.
 ### a) Multinomial Naive Bayes
