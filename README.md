@@ -17,7 +17,7 @@ We used pretrained FastText model which we downloaded from the FastText page (ht
 This is the second model of the two intent classifiers we built. The Model predicts the detailed intent from the four intents we used to train the model which are flight(depart, arriving location, time), flight + cost, flight + airline, flight + cost + airline.
 ### a) Long Short-Term Memory
 We used pretrained FastText model which we downloaded from the FastText page (https://fasttext.cc/docs/en/crawl-vectors.html). 
-# 3. Named Entity Recognition
+# 3. Named Entity Recognition (Still Fixing)
 ## 1) Bidirectional Long Short-Term Memory + Conditional Random Field
 We refered to the wikidocs page ( https://wikidocs.net/34156 ) for implementing the main training code and used atis data collected from the kaggle site. 
 # 4. Bot code using Telegram API
